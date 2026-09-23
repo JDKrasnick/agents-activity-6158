@@ -146,13 +146,10 @@ REPORT.md              one page, see below
 1. Your final score, and where it lost points.
 2. **How much came from the agent, and how much from the scaffold you wrote
    around it?** Guess a split and justify it.
-3. You had 40 model calls. Would **40 independent one-shot attempts plus a
-   selector** have beaten your loop? What would you have needed to find out?
-4. What did your agent do that you did not intend?
-5. Which of your generated Rust would you actually merge?
+3. What did your agent do that you did not intend?
+4. What are challenges you faced and how did you overcome them?
 
-Question 3 is the one that carries the most credit. Answering it honestly is
-worth more than five points of differential score.
+
 
 ---
 
