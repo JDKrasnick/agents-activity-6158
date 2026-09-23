@@ -24,6 +24,21 @@ python evaluate.py              # should report ~8% — the stub is unimplemente
 
 If `cargo` is missing: https://rustup.rs
 
+### Run this submission's agent
+
+The completed `agent.py` calls the locally authenticated Codex CLI once per
+decision, then executes its requested tool in the Python loop. No API key is
+stored in this repository. With `codex login status` showing a login, run:
+
+```sh
+python agent.py --budget 40
+```
+
+The agent starts from the current `rust/src/lib.rs`. The committed
+`logs/run-20260923-112650.jsonl` records the nine-call run from the original
+stub. For a fresh reproduction, restore the upstream stub in a separate
+checkout before running the command above.
+
 ---
 
 ## What you are building
