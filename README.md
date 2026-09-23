@@ -78,6 +78,10 @@ Violations are reported by `evaluate.py` and are not negotiable after the fact.
 `python evaluate.py` runs the **practice** seed (0). Grading uses a different
 seed you do not have. Tuning to seed 0 will not help you.
 
+## Submission
+
+Submit your compile and test pass rates to this excel sheet [leaderboard](https://docs.google.com/spreadsheets/d/1yZACTe5F9g39eSasnhkhc8vqFa-3t_42gcSU2hMJD7k/edit?usp=sharing).
+
 ### Why correctness is not the whole score
 
 Your agent can reach a high differential score and still have failed the task:
@@ -110,6 +114,8 @@ A submission at 85% with clean Rust scores above one at 95% with twelve
 | 3 | `build_context()` | **the hard one** |
 | 4 | `should_stop()` | **the one everyone forgets** |
 | 5 | the tool set | coarser/finer actions change results more than you expect |
+
+Feel free to make any other changes you think are necessary to the code.
 
 ### On TODO 3
 
